@@ -1,0 +1,22 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #222222;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    color: white;
+}
+
+.links {
+    display: flex;
+    a:link {text-decoration: none; }
+    list-style-type: none;
+    gap: 15px;
+}
+
+.links a {
+    color: white;
+}
