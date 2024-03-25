@@ -20,3 +20,33 @@ header {
 .links a {
     color: white;
 }
+
+/* header css */
+
+.media {
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+    background-color: #222222;
+    color: white;
+    height: 150px;
+    gap: 20px;
+}
+
+.media.content {
+    display: flex;
+    flex: 1;
+}
+
+.media img {
+    object-fit: contain;
+}
+
+.media button {
+    background-color: #5A93DB;
+    color: white;
+}
+
+
+
+
