@@ -78,5 +78,24 @@ header {
     align-items: center;
 }
 
+.section4 {
+    display: flex;
+    padding: 100px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #E5E7EB;
+}
 
+.container {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
 
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
